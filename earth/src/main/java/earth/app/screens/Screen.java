@@ -79,7 +79,7 @@ public class Screen extends JPanel implements SettingCoordinates, GettingCoordin
         gammaVelocity = 0.02;
 
         isColor = true;
-        colorParallel = Color.GREEN.brighter().brighter();
+        colorParallel = Color.GREEN.brighter();
         colorMeridian = Color.BLUE.brighter();
 
         // objects
