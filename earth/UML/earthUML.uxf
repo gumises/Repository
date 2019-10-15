@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>7</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>413</x>
+      <y>35</y>
+      <w>126</w>
+      <h>147</h>
+    </coordinates>
+    <panel_attributes>Meridian
+--
+- shift: double
+- color: Coloj obj
+- thickness: int
+
+--
++ getColor(): Color obj
++ getThickness(): int
++ setSize(): void
++ setPosition(): void
++ setColor(): void
++ setThickness(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>210</x>
+      <y>378</y>
+      <w>147</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>Earth
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>210</x>
+      <y>196</y>
+      <w>147</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>ScreenPanel
+--
+- x: int     -alpha: double
+- y: int     -beta: double
+- z: int     -gamma: double
+--
++ setAlpha(): void
++ setBeta(): void
++ setGamma(): void
+
++ setSize(): void
++ setPosition(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>21</x>
+      <y>35</y>
+      <w>126</w>
+      <h>147</h>
+    </coordinates>
+    <panel_attributes>Parallel
+--
+- shift: double
+- color: Coloj obj
+- thickness: int
+
+--
++ getColor(): Color obj
++ getThickness(): int
++ setSize(): void
++ setPosition(): void
++ setColor(): void
++ setThickness(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>350</x>
+      <y>28</y>
+      <w>77</w>
+      <h>182</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;240.0;90.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>140</x>
+      <y>28</y>
+      <w>84</w>
+      <h>182</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>100.0;240.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>224</x>
+      <y>35</y>
+      <w>126</w>
+      <h>119</h>
+    </coordinates>
+    <panel_attributes>Circle
+--
+- shift: double
+- color: Coloj obj
+- thickness: int
+
+--
++ getColor()
++ getThickness()
++ newSize()
++ newPosition()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>273</x>
+      <y>147</y>
+      <w>28</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;70.0;20.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>210</x>
+      <y>490</y>
+      <w>182</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>CoordinatesPanel
+--
+- amountEsceptions: int
+- icons: ImageIcon[] obj
+--
+- getTexts(): String []
+- getIcons(): ImageIcon [] obj
+- getIconsColor(): ImageIcon [] obj</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>14</x>
+      <y>245</y>
+      <w>140</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+KeyboardAdapter
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>147</x>
+      <y>217</y>
+      <w>77</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>413</x>
+      <y>245</y>
+      <w>140</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+MouseAdapter
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>350</x>
+      <y>224</y>
+      <w>77</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;90.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>280</x>
+      <y>455</y>
+      <w>21</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>280</x>
+      <y>322</y>
+      <w>21</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>7</x>
+      <y>595</y>
+      <w>147</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>DataPanel
+--
+- imageLabel: JLabel obj
+- textLabel: JLabel obj
+- textField: String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>238</x>
+      <y>609</y>
+      <w>147</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>DataLabel</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>427</x>
+      <y>532</y>
+      <w>147</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>DataConfirm</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>385</x>
+      <y>525</y>
+      <w>56</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;60.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>280</x>
+      <y>567</y>
+      <w>49</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;50.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>147</x>
+      <y>567</y>
+      <w>77</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>7</x>
+      <y>455</y>
+      <w>161</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>DataColor
+--
+- colorTrueIcon: ImageIcon obj
+- colorFalseIcon: ImageIcon obj</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>161</x>
+      <y>483</y>
+      <w>63</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>70.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+</diagram>
